@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.WorldSelect"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="World Select" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblSelectWorld" Content="Select A World:" HorizontalAlignment="Left" Margin="100,75,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnWorld1" Content="World 1" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="btnWorld1_Click"/>
+        <Button x:Name="btnWorld2" Content="World 2" HorizontalAlignment="Left" Margin="300,150,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="btnWorld2_Click"/>
+        <Button x:Name="btnWorld3" Content="World 3" HorizontalAlignment="Left" Margin="500,150,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="btnWorld3_Click"/>
+        <Label x:Name="lblCurrentUser" Content="Current User:" HorizontalAlignment="Left" Margin="571,75,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="50,25,0,0" VerticalAlignment="Top" Width="75" Click="btnBack_Click"/>
+
+    </Grid>
+</Window>
